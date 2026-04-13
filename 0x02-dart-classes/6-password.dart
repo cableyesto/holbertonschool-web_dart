@@ -20,4 +20,9 @@ class Password {
 
     return hasUpper && hasLower && hasNumber;
   }
+
+  @override
+  String toString() {
+    return 'Your Password is: $_password';
+  }
 }
